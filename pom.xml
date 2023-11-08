@@ -72,4 +72,19 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>SK Technologies Releases Nexus Repository</name>
+	      <url>http://18.219.130.94:8081/repository/kkumar-release/</url>.       
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>SK Technologies Snapshot Nexus Repository </name>
+	      <url>http://18.219.130.94:8081/repository/kkumar-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
